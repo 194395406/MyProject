@@ -1,0 +1,76 @@
+2021-11-19 10:09:24,360 INFO notifyConnectTimeout:200
+
+2021-11-19 10:09:24,385 INFO notifySocketTimeout:8000
+
+2021-11-19 10:09:24,386 INFO isHealthCheck:true
+
+2021-11-19 10:09:24,386 INFO maxHealthCheckFailCount:12
+
+2021-11-19 10:09:24,386 INFO maxContent:10485760
+
+2021-11-19 10:09:42,606 INFO use local db service for init
+
+2021-11-19 10:09:46,371 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2021-11-19 10:09:46,433 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2021-11-19 10:09:47,450 INFO use StandaloneDatabaseOperateImpl
+
+2021-11-19 10:09:57,115 WARN DumpService start
+
+2021-11-19 10:09:57,132 INFO start clear all config-info.
+
+2021-11-19 10:09:57,132 WARN clear all config-info failed.
+
+2021-11-19 10:09:57,132 WARN clear all config-info-tenant failed.
+
+2021-11-19 10:09:57,267 INFO start clear all config-info-beta.
+
+2021-11-19 10:09:57,267 WARN clear all config-info-beta failed.
+
+2021-11-19 10:09:57,267 WARN clear all config-info-beta-tenant failed.
+
+2021-11-19 10:09:57,306 INFO start clear all config-info-tag.
+
+2021-11-19 10:09:57,307 WARN clear all config-info-tag failed.
+
+2021-11-19 10:09:57,307 WARN clear all config-info-tag-tenant failed.
+
+2021-11-19 14:41:45,840 INFO notifyConnectTimeout:200
+
+2021-11-19 14:41:45,863 INFO notifySocketTimeout:8000
+
+2021-11-19 14:41:45,864 INFO isHealthCheck:true
+
+2021-11-19 14:41:45,864 INFO maxHealthCheckFailCount:12
+
+2021-11-19 14:41:45,865 INFO maxContent:10485760
+
+2021-11-19 14:42:06,067 INFO use local db service for init
+
+2021-11-19 14:42:10,928 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2021-11-19 14:42:11,048 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2021-11-19 14:42:12,300 INFO use StandaloneDatabaseOperateImpl
+
+2021-11-19 14:42:25,692 WARN DumpService start
+
+2021-11-19 14:42:25,696 INFO start clear all config-info.
+
+2021-11-19 14:42:25,702 WARN clear all config-info failed.
+
+2021-11-19 14:42:25,702 WARN clear all config-info-tenant failed.
+
+2021-11-19 14:42:25,976 INFO start clear all config-info-beta.
+
+2021-11-19 14:42:25,976 WARN clear all config-info-beta failed.
+
+2021-11-19 14:42:25,985 WARN clear all config-info-beta-tenant failed.
+
+2021-11-19 14:42:26,047 INFO start clear all config-info-tag.
+
+2021-11-19 14:42:26,047 WARN clear all config-info-tag failed.
+
+2021-11-19 14:42:26,047 WARN clear all config-info-tag-tenant failed.
+

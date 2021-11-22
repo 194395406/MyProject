@@ -1,0 +1,269 @@
+2021-11-18 19:37:23,740 INFO Initializes the Raft protocol, raft-config info : {}
+
+2021-11-18 19:37:24,013 INFO ========= The raft protocol is starting... =========
+
+2021-11-18 19:37:26,093 INFO ========= The raft protocol start finished... =========
+
+2021-11-18 19:37:26,112 INFO create raft group : naming_persistent_service
+
+2021-11-18 19:37:26,565 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='null', term=null, raftClusterInfo=[169.254.119.79:7848]}
+
+2021-11-18 19:37:31,688 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:37:36,695 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:37:41,772 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:37:46,794 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:37:51,877 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:37:56,904 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:01,965 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:07,014 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:12,051 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:17,101 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:22,146 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:27,184 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:32,245 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:37,294 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:38:42,338 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.lang.IllegalArgumentException: Blank leader
+	at com.alipay.sofa.jraft.util.Requires.requireTrue(Requires.java:85)
+	at com.alipay.sofa.jraft.RouteTable.updateLeader(RouteTable.java:181)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:264)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-18 19:39:38,042 INFO Initializes the Raft protocol, raft-config info : {}
+
+2021-11-18 19:39:38,265 INFO ========= The raft protocol is starting... =========
+
+2021-11-18 19:39:40,372 INFO ========= The raft protocol start finished... =========
+
+2021-11-18 19:39:40,395 INFO create raft group : naming_persistent_service
+
+2021-11-18 19:39:40,707 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='192.168.72.1:7848', term=1, raftClusterInfo=[192.168.72.1:7848]}
+
+2021-11-18 19:47:58,774 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2021-11-18 19:47:58,784 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:06,039 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:06,041 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:13,394 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:13,395 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:20,753 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:20,754 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:28,109 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:28,111 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:35,470 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+
+2021-11-18 19:48:35,471 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.72.1:7848]
+

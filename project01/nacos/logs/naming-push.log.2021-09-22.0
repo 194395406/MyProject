@@ -1,0 +1,12 @@
+2021-09-22 15:26:26,661 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2021-09-22 15:26:26,718 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 169.254.19.144:56942, agent: Nacos-Java-Client:v1.3.2, key: 169.254.19.144,56942,236822883661300
+
+2021-09-22 15:26:26,719 INFO send udp packet: 169.254.19.144,56942,236822883661300
+
+2021-09-22 15:26:26,739 INFO received ack: {"type": "push-ack", "lastRefTime":"236822883661300", "data":""} from: 169.254.19.144:56942, cost: 20 ms, unacked: 0, total push: 1
+
+2021-09-22 15:38:36,639 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2021-09-22 15:38:52,053 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
